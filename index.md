@@ -22,7 +22,7 @@ layout: singlecolumn
 &#9733; This chatbot has been deployed using Gradio and AWS, and is currently interacting with patients at Emory Healthcare!
 
 <div style="text-align: center;">
-  <img src="images/dummy_thumbnail.jpg?raw=true" style="width:100%; height:auto;"/>
+  <img src="images/dementiabot.png?raw=true" style="width:100%; height:auto;"/>
 </div>
 
 ---
