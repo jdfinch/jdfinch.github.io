@@ -22,7 +22,7 @@ layout: singlecolumn
 &#9733; This chatbot has been deployed using Gradio and AWS, and is currently interacting with patients at Emory Healthcare!
 
 <div style="text-align: center;">
-  <img src="images/dementiabot.png?raw=true" style="width:80%; height:auto;"/>
+  <img src="images/dementiabot.png?raw=true" style="width:75%; height:auto;"/>
 </div>
 
 ---
@@ -141,7 +141,7 @@ Beyond a deep involvement in the conversational content planning, my other major
 Below is a graph of Emora's performance during the end of the competition, showing steady, rapid improvement:
 
 <div style="text-align: center;">
-  <img src="images/dailyrating.png" style="width:80%; height:auto;"/>
+  <img src="images/dailyrating.png" style="width:70%; height:auto;"/>
 </div>
 
 
