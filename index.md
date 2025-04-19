@@ -21,18 +21,51 @@
 </div>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+### Adaptable Zero-Shot Dialogue State Tracking
+
+<div style="text-align: center;">
+  <img src="images/dialqasv.png?raw=true" style="width:90%; height:auto;"/>
+</div>
+
+<div style="text-align: center;">
+  <img src="images/dialqasv-prompt.png?raw=true" style="width:45%; height:auto;"/>
+</div>
+
+<div style="text-align: center;">
+  <img src="images/automated-state-tracking_cropped.png?raw=true" style="width:45%; height:auto;"/>
+</div>
+
+
+
+**More Information:**
+
+&#9733; Read the EMNLP Findings 2024 paper [here](https://aclanthology.org/2024.findings-emnlp.731.pdf)
+
+&#9733; Code is available at the [GitHub Repository](https://github.com/emorynlp/Diverse0ShotTracking)
+
+&#9733; Model is released on HuggingFace [here](https://huggingface.co/jdfinch/dialogue_state_generator)
 
 ---
 
-### Category Name 2
+### ABC-Eval: Annotation of Behaviors in Chat Evaluation Framework
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+The online interface for annotating emotional understanding behaviors:
+<br>
+<div style="text-align: center;">
+  <img src="images/interface_empathy.png" style="width:90%; height:auto;"/>
+</div>
+
+The online interface for annotating factual knowledge behaviors:
+<br>
+<div style="text-align: center;">
+  <img src="images/interface_knowledge.png" style="width:90%; height:auto;"/>
+</div>
+
+**More Information:**
+
+&#9733; Read the ACL 2023 paper [here](https://aclanthology.org/2023.acl-long.839/)!
+
+&#9733; Code for running the ABC-Eval platform is available at the [Github repository](https://github.com/emorynlp/ChatEvaluationPlatform)
 
 ---
 
