@@ -4,33 +4,52 @@
 @import "{{ site.theme }}";
 
 .wrapper {
-  max-width: 1200px; /* Increase overall width */
+  max-width: 1200px; /* Increased overall width */
 }
 
 header {
-  width: 270px; /* Keep left sidebar width the same */
+  width: 270px; /* Keep sidebar width */
+  float: left;
+  position: fixed;
 }
 
 section {
-  width: 850px; /* Increase the width of the content area */
-  padding-left: 320px; /* Adjust the padding to accommodate the sidebar */
+  width: calc(100% - 330px); /* Content takes remaining space minus margin */
+  float: right;
+  padding-left: 0; /* Remove the default padding */
 }
 
+/* Preserve responsive design */
 @media print, screen and (max-width: 960px) {
-  section {
+  div.wrapper {
     width: auto;
-    padding-left: 0;
+    margin: 0;
+  }
+  
+  header, section, footer {
+    float: none;
+    position: static;
+    width: auto;
+  }
+  
+  section {
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+    padding: 20px 0;
+    margin: 0 0 20px;
   }
 }
 
 @media print, screen and (max-width: 720px) {
-  section {
-    width: auto;
+  body {
+    word-wrap: break-word;
   }
-}
-
-@media print, screen and (max-width: 480px) {
-  section {
-    width: auto;
+  
+  header {
+    padding: 0;
+  }
+  
+  pre, code {
+    word-wrap: normal;
   }
 }
