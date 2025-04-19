@@ -18,8 +18,11 @@ layout: singlecolumn
 ---
 
 ## DementiaBot
+
+&#9733; This chatbot has been deployed using Gradio and AWS, and is currently interacting with patients at Emory Healthcare!
+
 <div style="text-align: center;">
-  <img src="images/dummy_thumbnail.png?raw=true" style="width:100%; height:auto;"/>
+  <img src="images/dummy_thumbnail.jpg?raw=true" style="width:100%; height:auto;"/>
 </div>
 
 ---
@@ -37,6 +40,7 @@ As shown below, my new approach combines dialogue state tracking based on an exi
   <img src="images/streaming-dialogue-state-induction.png?raw=true" style="width:90%; height:auto;"/>
 </div>
 
+<br>
 To support this research, I created DOTS — a novel simulation framework for generating diverse task-oriented dialogue data with accurate schema annotations - in order to generate high-quality training data and subsequently trained state-of-the-art models based on LLMs and parameter-efficient fine-tuning techniques.
 
 The DOTS simulation framework is a sophisticated, multi-step data generation approach for novel task-oriented dialogues and is shown below:
@@ -45,30 +49,41 @@ The DOTS simulation framework is a sophisticated, multi-step data generation app
   <img src="images/dialogue-simulation.png?raw=true" style="width:90%; height:auto;"/>
 </div>
 
+<br>
 An example of the prompt formulation and training datapoint is shown below:
 
 <div style="text-align: center;">
-  <img src="images/dialogue-state-LLM-prompt.png?raw=true" style="width:60%; height:auto;"/>
+  <img src="images/dialogue-state-LLM-prompt.png?raw=true" style="width:45%; height:auto;"/>
 </div>
 
 ---
 ## Adaptable Zero-Shot Dialogue State Tracking
 
-<div style="text-align: center;">
-  <img src="images/dialqasv.png?raw=true" style="width:100%; height:auto;"/>
-</div>
+Zero-shot Dialogue State Tracking (DST) is the task of capturing important information expressed in a conversation based only on a short specification of target information types, or slots, without any training on the target slots.
 
 <div style="text-align: center;">
-  <img src="images/dialqasv-prompt.png?raw=true" style="width:70%; height:auto;"/>
+  <img src="images/dialqasv.png?raw=true" style="width:90%; height:auto;"/>
 </div>
+
+<br>
+This work demonstrates significant performance gains in zero-shot Dialogue State Tracking (DST) by enhancing training data diversity through synthetic data generation. Traditional DST datasets are constrained by costly data collection, covering only a narrow range of domains and slot types—limiting model adaptability to new tasks. To overcome this, we introduce a novel, fully automatic method for generating diverse, synthetic DST data across over 1,000 unique domains. My approach, unlike prior methods, produces dialogues with silver-standard annotations and slot descriptions, enabling effective zero-shot learning without manual labeling.
 
 <div style="text-align: center;">
-  <img src="images/automated-state-tracking_cropped.png?raw=true" style="width:70%; height:auto;"/>
+  <img src="images/automated-state-tracking_cropped.png?raw=true" style="width:45%; height:auto;"/>
 </div>
 
+<br>
+An example of the prompt formulation used for model training is shown below:
+
+<div style="text-align: center;">
+  <img src="images/dialqasv-prompt.png?raw=true" style="width:45%; height:auto;"/>
+</div>
+
+<br>
+This technique powers the creation of the \DOT dataset, the largest synthetic DST dataset to date. Experiments on the MultiWOZ benchmark show that models trained on our synthetic data achieve a 6.7% improvement in Joint Goal Accuracy, matching the performance of models over 13× larger in size.
 
 
-**More Information:**
+### More Information
 
 &#9733; Read the EMNLP Findings 2024 paper [here](https://aclanthology.org/2024.findings-emnlp.731.pdf)
 
@@ -92,7 +107,7 @@ The online interface for annotating factual knowledge behaviors:
   <img src="images/interface_knowledge.png" style="width:100%; height:auto;"/>
 </div>
 
-**More Information:**
+### More Information
 
 &#9733; Read the ACL 2023 paper [here](https://aclanthology.org/2023.acl-long.839/)!
 
@@ -104,11 +119,11 @@ The online interface for annotating factual knowledge behaviors:
 
 <br>
 <div style="text-align: center;">
-  <img src="images/dummy_thumbnail.png" style="width:100%; height:auto;"/>
+  <img src="images/dummy_thumbnail.jpg" style="width:100%; height:auto;"/>
 </div>
 
 
-**More Information:**
+### More Information
 
 &#9733; Read the Amazon Technical Proceedings paper [here](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexaprize/assets/challenge3/proceedings/Emory-Emora.pdf)
 
