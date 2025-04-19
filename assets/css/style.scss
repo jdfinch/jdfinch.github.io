@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+footer {
+  display: none !important;
+}
+
 /* Full-width layout style */
 .wrapper {
   max-width: 1200px;
