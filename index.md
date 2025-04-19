@@ -20,7 +20,7 @@ layout: singlecolumn
 
 ## DementiaBot
 <div style="text-align: center;">
-  <img src="images/dummy-thumbnail.png?raw=true" style="width:100%; height:auto;"/>
+  <img src="images/dummy_thumbnail.png?raw=true" style="width:100%; height:auto;"/>
 </div>
 
 ---
@@ -91,7 +91,7 @@ The online interface for annotating factual knowledge behaviors:
 
 <br>
 <div style="text-align: center;">
-  <img src="images/dummy-thumbnail.png" style="width:100%; height:auto;"/>
+  <img src="images/dummy_thumbnail.png" style="width:100%; height:auto;"/>
 </div>
 
 
