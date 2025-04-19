@@ -18,11 +18,13 @@ layout: singlecolumn
 
 ---
 
-### DementiaBot
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+## DementiaBot
+<div style="text-align: center;">
+  <img src="images/dummy-thumbnail.png?raw=true" style="width:100%; height:auto;"/>
+</div>
 
 ---
-### Streaming Dialogue State Induction
+## Streaming Dialogue State Induction
 
 <div style="text-align: center;">
   <img src="images/streaming-dialogue-state-induction.png?raw=true" style="width:100%; height:auto;"/>
@@ -37,7 +39,7 @@ layout: singlecolumn
 </div>
 
 ---
-### Adaptable Zero-Shot Dialogue State Tracking
+## Adaptable Zero-Shot Dialogue State Tracking
 
 <div style="text-align: center;">
   <img src="images/dialqasv.png?raw=true" style="width:100%; height:auto;"/>
@@ -63,7 +65,7 @@ layout: singlecolumn
 
 ---
 
-### ABC-Eval: Annotation of Behaviors in Chat Evaluation Framework
+## ABC-Eval: Annotation of Behaviors in Chat Evaluation Framework
 
 The online interface for annotating emotional understanding behaviors:
 <br>
@@ -82,6 +84,26 @@ The online interface for annotating factual knowledge behaviors:
 &#9733; Read the ACL 2023 paper [here](https://aclanthology.org/2023.acl-long.839/)!
 
 &#9733; Code for running the ABC-Eval platform is available at the [Github repository](https://github.com/emorynlp/ChatEvaluationPlatform)
+
+---
+
+## Emora: Amazon Alexa Prize 2020 Winning Socialbot
+
+<br>
+<div style="text-align: center;">
+  <img src="images/dummy-thumbnail.png" style="width:100%; height:auto;"/>
+</div>
+
+
+**More Information:**
+
+&#9733; Read the Amazon Technical Proceedings paper [here](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexaprize/assets/challenge3/proceedings/Emory-Emora.pdf)
+
+&#9733; Code for running the winning Emora is available at the [Emora Github Repository](https://github.com/emora-chat/emora_ap3_parlai).
+
+&#9733; Emora in the News in an [Amazon Article](https://www.amazon.science/latest-news/alexa-prize-interviews?fbclid=IwAR2Iu7HwssbVvqmy1AB2gSOtZfoOps5nbxcpQqlTLgrz1czMtWnEH5X1JVY) and an [Emory Article](https://news.emory.edu/stories/2020/08/er_alexa_prize/campus.html)!
+
+&#9733; Learn more about Emora from our [Youtube Playlist](https://www.youtube.com/playlist?list=PLsMGYQfhCveJE1uSslBZjoiRAVHDJoiQa)!
 
 ---
 
