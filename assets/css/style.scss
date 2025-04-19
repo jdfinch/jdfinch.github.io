@@ -7,6 +7,20 @@ footer {
   display: none !important;
 }
 
+h1 {
+  text-align: center;
+}
+
+/* Center-align headers with background color */
+h2 {
+  text-align: center;
+  background-color: #f0f8ff; /* Light blue background */
+  padding: 10px 15px; /* Add some padding around the text */
+  border-radius: 5px; /* Optional: rounded corners */
+  margin-top: 30px; /* Add more space above headers */
+  margin-bottom: 20px; /* Add more space below headers */
+}
+
 /* Full-width layout style */
 .wrapper {
   max-width: 1200px;
