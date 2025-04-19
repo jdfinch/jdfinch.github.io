@@ -80,7 +80,7 @@ An example of the prompt formulation used for model training is shown below:
 </div>
 
 <br>
-This technique powers the creation of the \DOT dataset, the largest synthetic DST dataset to date. Experiments on the MultiWOZ benchmark show that models trained on our synthetic data achieve a 6.7% improvement in Joint Goal Accuracy, matching the performance of models over 13× larger in size.
+This technique powers the creation of the D0T dataset, the largest synthetic DST dataset to date. Experiments on the MultiWOZ benchmark show that models trained on our synthetic data achieve a 6.7% improvement in Joint Goal Accuracy, matching the performance of models over 13× larger in size.
 
 
 ### More Information
@@ -115,15 +115,34 @@ The online interface for annotating factual knowledge behaviors:
 
 ---
 
-## Emora: Amazon Alexa Prize 2020 Winning Socialbot
+## Emora: Winning Socialbot of the Amazon Alexa Prize 3 Competition (2020) 
+
+Emora is the winning chatbot of the Amazon Alexa Prize Socialbot Grand Challenge 3 in 2020. She prioritizes in-depth and meaningful life discussions with the user on topics that are pertinent and interesting to their day-to-day activities.
+
+Below is the overall system architecture underlying Emora, showcasing the many components that contribute to her conversational capabilities:
+
+<div style="text-align: center;">
+  <img src="images/architecture.png" style="width:90%; height:auto;"/>
+</div>
 
 <br>
+Beyond a deep involvement in the conversational content planning, my other major contribution to Emora is the development of the underlying adaptable dialogue logic engine, based on a state-machine formulation that allows for flexible integration of machine learning modules, dialogue flow control, and regex-based NLU. An example of Emora's dialogue logic is shown below:
+
 <div style="text-align: center;">
-  <img src="images/dummy_thumbnail.jpg" style="width:100%; height:auto;"/>
+  <img src="images/statemachine.png" style="width:90%; height:auto;"/>
+</div>
+
+<br>
+Below is a graph of Emora's performance during the end of the competition, showing steady, rapid improvement:
+
+<div style="text-align: center;">
+  <img src="images/dailyrating.png" style="width:90%; height:auto;"/>
 </div>
 
 
 ### More Information
+
+&#9733; Read the SIGDIAL demonstration paper of the dialogue logic engine [here](https://2020.sigdial.org/pdf/2020.sigdial-1.32.pdf)
 
 &#9733; Read the Amazon Technical Proceedings paper [here](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexaprize/assets/challenge3/proceedings/Emory-Emora.pdf)
 
