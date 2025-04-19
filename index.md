@@ -9,7 +9,7 @@
 ### Streaming Dialogue State Induction
 
 <div style="text-align: center;">
-  <img src="images/streaming-dialogue-state-induction.png?raw=true" style="width:90%; height:auto;"/>
+  <img src="images/streaming-dialogue-state-induction.png?raw=true" style="width:100%; height:auto;"/>
 </div>
 
 <div style="text-align: center;">
@@ -17,7 +17,7 @@
 </div>
 
 <div style="text-align: center;">
-  <img src="images/dialogue-simulation.png?raw=true" style="width:90%; height:auto;"/>
+  <img src="images/dialogue-simulation.png?raw=true" style="width:110%; height:auto;"/>
 </div>
 
 ---
