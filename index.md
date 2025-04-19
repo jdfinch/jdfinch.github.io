@@ -22,7 +22,7 @@ layout: singlecolumn
 &#9733; This chatbot has been deployed using Gradio and AWS, and is currently interacting with patients at Emory Healthcare!
 
 <div style="text-align: center;">
-  <img src="images/dementiabot.png?raw=true" style="width:100%; height:auto;"/>
+  <img src="images/dementiabot.png?raw=true" style="width:80%; height:auto;"/>
 </div>
 
 ---
@@ -37,7 +37,7 @@ This innovation addresses the fundamental challenge of scaling dialogue systems 
 As shown below, my new approach combines dialogue state tracking based on an existing slot schema with dialogue state inference that is responsible for identifying new slots relevant to the current conversation.
 
 <div style="text-align: center;">
-  <img src="images/streaming-dialogue-state-induction.png?raw=true" style="width:90%; height:auto;"/>
+  <img src="images/streaming-dialogue-state-induction.png?raw=true" style="width:80%; height:auto;"/>
 </div>
 
 <br>
@@ -46,14 +46,14 @@ To support this research, I created DOTS — a novel simulation framework for ge
 The DOTS simulation framework is a sophisticated, multi-step data generation approach for novel task-oriented dialogues and is shown below:
 
 <div style="text-align: center;">
-  <img src="images/dialogue-simulation.png?raw=true" style="width:90%; height:auto;"/>
+  <img src="images/dialogue-simulation.png?raw=true" style="width:80%; height:auto;"/>
 </div>
 
 <br>
 An example of the prompt formulation and training datapoint is shown below:
 
 <div style="text-align: center;">
-  <img src="images/dialogue-state-LLM-prompt.png?raw=true" style="width:45%; height:auto;"/>
+  <img src="images/dialogue-state-LLM-prompt.png?raw=true" style="width:35%; height:auto;"/>
 </div>
 
 ---
@@ -62,21 +62,21 @@ An example of the prompt formulation and training datapoint is shown below:
 Zero-shot Dialogue State Tracking (DST) is the task of capturing important information expressed in a conversation based only on a short specification of target information types, or slots, without any training on the target slots.
 
 <div style="text-align: center;">
-  <img src="images/dialqasv.png?raw=true" style="width:90%; height:auto;"/>
+  <img src="images/dialqasv.png?raw=true" style="width:80%; height:auto;"/>
 </div>
 
 <br>
 This work demonstrates significant performance gains in zero-shot Dialogue State Tracking (DST) by enhancing training data diversity through synthetic data generation. Traditional DST datasets are constrained by costly data collection, covering only a narrow range of domains and slot types—limiting model adaptability to new tasks. To overcome this, we introduce a novel, fully automatic method for generating diverse, synthetic DST data across over 1,000 unique domains. My approach, unlike prior methods, produces dialogues with silver-standard annotations and slot descriptions, enabling effective zero-shot learning without manual labeling.
 
 <div style="text-align: center;">
-  <img src="images/automated-state-tracking_cropped.png?raw=true" style="width:45%; height:auto;"/>
+  <img src="images/automated-state-tracking_cropped.png?raw=true" style="width:35%; height:auto;"/>
 </div>
 
 <br>
 An example of the prompt formulation used for model training is shown below:
 
 <div style="text-align: center;">
-  <img src="images/dialqasv-prompt.png?raw=true" style="width:45%; height:auto;"/>
+  <img src="images/dialqasv-prompt.png?raw=true" style="width:35%; height:auto;"/>
 </div>
 
 <br>
@@ -98,13 +98,13 @@ This technique powers the creation of the D0T dataset, the largest synthetic DST
 The online interface for annotating emotional understanding behaviors:
 <br>
 <div style="text-align: center;">
-  <img src="images/interface_empathy.png" style="width:100%; height:auto;"/>
+  <img src="images/interface_empathy.png" style="width:80%; height:auto;"/>
 </div>
 
 The online interface for annotating factual knowledge behaviors:
 <br>
 <div style="text-align: center;">
-  <img src="images/interface_knowledge.png" style="width:100%; height:auto;"/>
+  <img src="images/interface_knowledge.png" style="width:80%; height:auto;"/>
 </div>
 
 ### More Information
@@ -122,21 +122,21 @@ Emora is the winning chatbot of the Amazon Alexa Prize Socialbot Grand Challenge
 Below is the overall system architecture underlying Emora, showcasing the many components that contribute to her conversational capabilities:
 
 <div style="text-align: center;">
-  <img src="images/architecture.png" style="width:90%; height:auto;"/>
+  <img src="images/architecture.png" style="width:80%; height:auto;"/>
 </div>
 
 <br>
 Beyond a deep involvement in the conversational content planning, my other major contribution to Emora is the development of the underlying adaptable dialogue logic engine, based on a state-machine formulation that allows for flexible integration of machine learning modules, dialogue flow control, and regex-based NLU. An example of Emora's dialogue logic is shown below:
 
 <div style="text-align: center;">
-  <img src="images/statemachine.png" style="width:90%; height:auto;"/>
+  <img src="images/statemachine.png" style="width:80%; height:auto;"/>
 </div>
 
 <br>
 Below is a graph of Emora's performance during the end of the competition, showing steady, rapid improvement:
 
 <div style="text-align: center;">
-  <img src="images/dailyrating.png" style="width:90%; height:auto;"/>
+  <img src="images/dailyrating.png" style="width:80%; height:auto;"/>
 </div>
 
 
