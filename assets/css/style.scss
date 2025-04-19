@@ -3,8 +3,10 @@
 
 @import "{{ site.theme }}";
 
+/* Overriding the default layout constraints */
 .wrapper {
-  max-width: 1600px; /* Increased overall width */
+  max-width: 1600px; /* Significantly increased wrapper width */
+  margin: 0 auto;
 }
 
 header {
@@ -14,18 +16,20 @@ header {
 }
 
 section {
-  width: calc(100% - 330px); /* Content takes remaining space minus margin */
+  width: 1050px; /* Explicitly set a larger width for content */
   float: right;
-  padding-left: 0; /* Remove the default padding */
+  margin-left: 0;
+  padding-left: 0;
 }
 
-/* Preserve responsive design */
-@media print, screen and (max-width: 960px) {
-  div.wrapper {
-    width: auto;
-    margin: 0;
+/* Ensure proper responsiveness */
+@media print, screen and (max-width: 1400px) {
+  section {
+    width: calc(100% - 300px); /* Dynamic width for smaller screens but still larger than default */
   }
-  
+}
+
+@media print, screen and (max-width: 960px) {
   header, section, footer {
     float: none;
     position: static;
@@ -37,19 +41,5 @@ section {
     border-width: 1px 0;
     padding: 20px 0;
     margin: 0 0 20px;
-  }
-}
-
-@media print, screen and (max-width: 720px) {
-  body {
-    word-wrap: break-word;
-  }
-  
-  header {
-    padding: 0;
-  }
-  
-  pre, code {
-    word-wrap: normal;
   }
 }
