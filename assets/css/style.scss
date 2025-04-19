@@ -3,43 +3,45 @@
 
 @import "{{ site.theme }}";
 
-/* Overriding the default layout constraints */
+/* Full-width layout style */
 .wrapper {
-  max-width: 1600px; /* Significantly increased wrapper width */
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-header {
-  width: 270px; /* Keep sidebar width */
-  float: left;
-  position: fixed;
+.full-width-section {
+  width: 100%;
+  float: none;
+  padding: 0;
 }
 
-section {
-  width: 1050px; /* Explicitly set a larger width for content */
-  float: right;
-  margin-left: 0;
-  padding-left: 0;
+/* Profile section styling */
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
-/* Ensure proper responsiveness */
-@media print, screen and (max-width: 1400px) {
-  section {
-    width: calc(100% - 300px); /* Dynamic width for smaller screens but still larger than default */
-  }
+.profile-image {
+  max-width: 150px;
+  margin-right: 30px;
+  border-radius: 50%; /* Optional: makes image circular */
 }
 
-@media print, screen and (max-width: 960px) {
-  header, section, footer {
-    float: none;
-    position: static;
-    width: auto;
+.profile-info {
+  flex: 1;
+}
+
+/* Responsive adjustments */
+@media print, screen and (max-width: 480px) {
+  .profile-header {
+    flex-direction: column;
+    text-align: center;
   }
   
-  section {
-    border: 1px solid #e5e5e5;
-    border-width: 1px 0;
-    padding: 20px 0;
-    margin: 0 0 20px;
+  .profile-image {
+    margin-right: 0;
+    margin-bottom: 15px;
   }
 }
