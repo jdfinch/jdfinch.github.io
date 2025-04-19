@@ -13,26 +13,26 @@
 </div>
 
 <div style="text-align: center;">
-  <img src="images/dialogue-state-LLM-prompt.png?raw=true" style="width:45%; height:auto;"/>
+  <img src="images/dialogue-state-LLM-prompt.png?raw=true" style="width:70%; height:auto;"/>
 </div>
 
 <div style="text-align: center;">
-  <img src="images/dialogue-simulation.png?raw=true" style="width:110%; height:auto;"/>
+  <img src="images/dialogue-simulation.png?raw=true" style="width:100%; height:auto;"/>
 </div>
 
 ---
 ### Adaptable Zero-Shot Dialogue State Tracking
 
 <div style="text-align: center;">
-  <img src="images/dialqasv.png?raw=true" style="width:90%; height:auto;"/>
+  <img src="images/dialqasv.png?raw=true" style="width:100%; height:auto;"/>
 </div>
 
 <div style="text-align: center;">
-  <img src="images/dialqasv-prompt.png?raw=true" style="width:45%; height:auto;"/>
+  <img src="images/dialqasv-prompt.png?raw=true" style="width:70%; height:auto;"/>
 </div>
 
 <div style="text-align: center;">
-  <img src="images/automated-state-tracking_cropped.png?raw=true" style="width:45%; height:auto;"/>
+  <img src="images/automated-state-tracking_cropped.png?raw=true" style="width:70%; height:auto;"/>
 </div>
 
 
@@ -52,13 +52,13 @@
 The online interface for annotating emotional understanding behaviors:
 <br>
 <div style="text-align: center;">
-  <img src="images/interface_empathy.png" style="width:90%; height:auto;"/>
+  <img src="images/interface_empathy.png" style="width:100%; height:auto;"/>
 </div>
 
 The online interface for annotating factual knowledge behaviors:
 <br>
 <div style="text-align: center;">
-  <img src="images/interface_knowledge.png" style="width:90%; height:auto;"/>
+  <img src="images/interface_knowledge.png" style="width:100%; height:auto;"/>
 </div>
 
 **More Information:**
