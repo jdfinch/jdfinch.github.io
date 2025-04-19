@@ -1,3 +1,19 @@
+---
+layout: singlecolumn
+---
+
+<div class="profile-header">
+  <img src="{{site.logo | relative_url}}" alt="James Finch" class="profile-image">
+  <div class="profile-info">
+    <h1>{{ site.title }}</h1>
+    <p>Ph.D., Computer Science (2024)<br>
+    Emory University</p>
+    <p>AI/LLM engineer and researcher with extensive experience in machine learning model development and evaluation for conversational AI, text processing, and data generation.</p>
+    <p>Currently a Post-Doctoral Researcher working on the development and deployment of medical chatbots to support the early diagnosis of dementia.</p>
+    <p><a href="https://linkedin.com/in/james-d-finch">View My LinkedIn Profile</a></p>
+  </div>
+</div>
+
 ## Portfolio
 
 ---
