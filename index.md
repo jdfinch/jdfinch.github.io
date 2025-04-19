@@ -4,12 +4,14 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/sample_page)
+[DementiaBot](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+Streaming Dialogue State Inductionst
+<img src="images/streaming-dialogue-state-induction.png?raw=true"/>
+<img src="images/dialogue-state-LLM-prompt.png?raw=true"/>
+<img src="images/dialogue-simulation.png?raw=true"/>
 
 ---
 [Project 3 Title](http://example.com/)
