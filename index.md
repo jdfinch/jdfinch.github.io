@@ -2,16 +2,23 @@
 
 ---
 
-### Category Name 1 
-
-[DementiaBot](/sample_page)
+### DementiaBot
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-Streaming Dialogue State Inductionst
-<img src="images/streaming-dialogue-state-induction.png?raw=true"/>
-<img src="images/dialogue-state-LLM-prompt.png?raw=true"/>
-<img src="images/dialogue-simulation.png?raw=true"/>
+### Streaming Dialogue State Induction
+
+<div style="text-align: center;">
+  <img src="images/streaming-dialogue-state-induction.png?raw=true" style="width:90%; height:auto;"/>
+</div>
+
+<div style="text-align: center;">
+  <img src="images/dialogue-state-LLM-prompt.png?raw=true" style="width:45%; height:auto;"/>
+</div>
+
+<div style="text-align: center;">
+  <img src="images/dialogue-simulation.png?raw=true" style="width:90%; height:auto;"/>
+</div>
 
 ---
 [Project 3 Title](http://example.com/)
