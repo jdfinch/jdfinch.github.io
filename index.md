@@ -95,13 +95,18 @@ This technique powers the creation of the D0T dataset, the largest synthetic DST
 
 ## ABC-Eval: Annotation of Behaviors in Chat Evaluation Framework
 
-The online interface for annotating emotional understanding behaviors:
+Despite impressive advances in open-domain dialogue systems, evaluating their performance remains a major challenge due to the subjective and inconsistent nature of human judgments. This project proposes a novel dimensional evaluation framework that systematically measures a wide range of chatbot behaviors affecting conversation quality. By comparing four state-of-the-art dialogue models using our method and existing evaluation techniques, this approach offers deeper insights and greater reliability than traditional Likert-style or comparative assessments. This work provides a validated foundation for more consistent and informative chatbot evaluation—paving the way for more human-like, trustworthy AI conversations. This platform is released as a customizable Javascript project that can be launched using the ParlAI infrastructure for web deployment to perform the evaluation on any dialogue corpus.
+
+Below are some examples of the annotation interface:
+
+(1) Emotional understanding behaviors:
 <br>
 <div style="text-align: center;">
   <img src="images/interface_empathy.png" style="width:80%; height:auto;"/>
 </div>
 
-The online interface for annotating factual knowledge behaviors:
+<br>
+(2) Factual knowledge behaviors:
 <br>
 <div style="text-align: center;">
   <img src="images/interface_knowledge.png" style="width:80%; height:auto;"/>
