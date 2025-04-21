@@ -17,12 +17,16 @@ layout: singlecolumn
 # Projects
 ---
 
-## DementiaBot
+## Conversational AI for Alzheimer's Disease Interviews
 
-&#9733; This chatbot has been deployed using Gradio and AWS, and is currently interacting with patients at Emory Healthcare!
+&#9733; This chatbot has been deployed at the Emory Brain Health Center, and is currently interacting with patients!
+
+I’ve been developing a voice-based conversational agent designed specifically for clinical interviews, with a focus on cognitive and dementia care. It’s currently up and running at Emory’s Brain Health Center, where it’s already interviewed over a dozen patients. This work has been done in close collaboration with Professor Andrew Breithaupt, a cognitive neurologist, to make sure the system aligns with clinical standards and communicates in an effective, empathetic way. Patients who agree to participate in our study converse with the conversational agent for up to an hour and a half, during which time the AI asks questions about their lived experience and any memory issues they might be having. The AI reliably not only guides the conversation through 30 key interview questions hand-crafted by experts, but also discusses patient experiences in an open-ended manner with personalized follow up questions. This approach ensures a deep dive into each patient's history and the identification of any clinically relevant markers of their disease progression.
+
+The system is fully voice-driven, using Whisper for speech-to-text and Kokoro for text-to-speech, which makes the interactions feel natural and fluid for patients. The model behind the agent is Claude 3.5 Sonnet, and I’m building on top of it using techniques like in-context learning, instruction-based prompting, chain-of-thought reasoning, and dialogue state tracking to make conversations more accurate and context-aware. Below is an overview of the currently deployed architecture, although it is soon to be outdated as we are in active development and making daily changes.
 
 <div style="text-align: center;">
-  <img src="images/dementiabot.png?raw=true" style="width:75%; height:auto;"/>
+  <img src="images/ClinicalInterviewChatbot.png?raw=true" style="width:75%; height:auto;"/>
 </div>
 
 ---
@@ -35,6 +39,7 @@ I've developed a groundbreaking approach to Slot Schema Induction (SSI) that tra
 My approach treats schema induction as a text generation task, enabling systems to automatically identify and track key information types while maintaining schema consistency throughout conversations. Unlike traditional methods that rely on manual curation or embedding-based clustering, my system uses generative AI to dynamically create and refine dialogue task schemas incrementally by reading a stream of unlabeled conversation data. Given just one conversation example, the approach infers the key information types and subtasks that contribute to the dialogue task. As more conversation examples are added, the approach revises the schema to improve its coverage and filter out noisy inferences. The key idea behind the approach is to jointly perform dialogue state tracking based on an existing slot schema in addition to discovering new slots relevant to the current conversation.
 
 <br>
+
 An example of the prompt formulation and a training datapoint is shown below. The model is trained to jointly track slot values for the current schema and discover entirely new slot types, such as *sunlight* requirements in the example, in order to expand the current schema's coverage.
 
 <div style="text-align: center;">
