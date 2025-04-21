@@ -30,30 +30,21 @@ layout: singlecolumn
 
 &#9733; This work has been accepted to TACL and publication is forthcoming in the next few months!
 
-I've developed a groundbreaking approach to Slot Schema Induction (SSI) that transforms how task-oriented dialogue systems understand and process conversations. Unlike traditional methods that rely on manual curation or embedding clustering, my system uses generative AI to dynamically create and refine dialogue schemas from streaming conversation data.
+I've developed a groundbreaking approach to Slot Schema Induction (SSI) that transforms how task-oriented dialogue systems understand and process conversations. Given a set of unlabeled dialogue examples for a particular dialogue task, SSI systems aim to infer a task schema that describes the structure and key information types related to the task. The inferred task schema can then be used for dedicated dialogue state tracking, or for analyzing patterns in the dialogue dataset.
 
-This innovation addresses the fundamental challenge of scaling dialogue systems across diverse domains without extensive manual engineering. My approach treats schema induction as a text generation task, enabling systems to automatically identify and track key information types while maintaining schema consistency throughout conversations.
-
-As shown below, my new approach combines dialogue state tracking based on an existing slot schema with dialogue state inference that is responsible for identifying new slots relevant to the current conversation.
-
-<div style="text-align: center;">
-  <img src="images/streaming-dialogue-state-induction.png?raw=true" style="width:80%; height:auto;"/>
-</div>
+My approach treats schema induction as a text generation task, enabling systems to automatically identify and track key information types while maintaining schema consistency throughout conversations. Unlike traditional methods that rely on manual curation or embedding-based clustering, my system uses generative AI to dynamically create and refine dialogue task schemas incrementally by reading a stream of unlabeled conversation data. Given just one conversation example, the approach infers the key information types and subtasks that contribute to the dialogue task. As more conversation examples are added, the approach revises the schema to improve its coverage and filter out noisy inferences. The key idea behind the approach is to jointly perform dialogue state tracking based on an existing slot schema in addition to discovering new slots relevant to the current conversation.
 
 <br>
-To support this research, I created DOTS — a novel simulation framework for generating diverse task-oriented dialogue data with accurate schema annotations - in order to generate high-quality training data and subsequently trained state-of-the-art models based on LLMs and parameter-efficient fine-tuning techniques.
-
-The DOTS simulation framework is a sophisticated, multi-step data generation approach for novel task-oriented dialogues and is shown below:
-
-<div style="text-align: center;">
-  <img src="images/dialogue-simulation.png?raw=true" style="width:80%; height:auto;"/>
-</div>
-
-<br>
-An example of the prompt formulation and training datapoint is shown below:
+An example of the prompt formulation and a training datapoint is shown below. The model is trained to jointly track slot values for the current schema and discover entirely new slot types, such as *sunlight* requirements in the example, in order to expand the current schema's coverage.
 
 <div style="text-align: center;">
   <img src="images/dialogue-state-LLM-prompt.png?raw=true" style="width:35%; height:auto;"/>
+</div>
+
+To support this research, I created DOTS — a novel simulation framework for generating diverse task-oriented dialogue data with accurate schema annotations - in order to generate high-quality training data and subsequently trained state-of-the-art models based on LLMs and parameter-efficient fine-tuning techniques. The DOTS simulation framework is a multi-step data generation approach for novel task-oriented dialogues and is shown below:
+
+<div style="text-align: center;">
+  <img src="images/dialogue-simulation.png?raw=true" style="width:80%; height:auto;"/>
 </div>
 
 ---
